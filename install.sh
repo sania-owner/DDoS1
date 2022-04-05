@@ -9,7 +9,7 @@ cd "$HOME"/DDoS/MHProDev
 pip3 install -r requirements.txt
 python3 -m pip install tabulate
 
-wget -O "$HOME"/DDoS/mhddos_proxy/auto.sh https://raw.githubusercontent.com/sania-owner/DDoS1/main/auto.sh
-wget -O "$HOME"/DDoS/mhddos_proxy/start.sh https://raw.githubusercontent.com/sania-owner/DDoS1/main/start.sh
+wget -O "$HOME"/DDoS/auto.sh https://raw.githubusercontent.com/sania-owner/DDoS1/main/auto.sh
+wget -O "$HOME"/DDoS/start.sh https://raw.githubusercontent.com/sania-owner/DDoS1/main/start.sh
 chmod 0770 "$HOME"/DDoS/auto.sh
 chmod 0770 "$HOME"/DDoS/start.sh
